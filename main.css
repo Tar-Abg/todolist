@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* position: relative; */
+}
+
+body{
+    background: url("t3.jpg") no-repeat;
+    background-size: cover;
+    width: 100vw ;
+    height: 100vh;
+    position: relative;
+    }
+ .for_color h1{
+    background-color: #273746;
+    color: #FEF9E7;
+    text-align: center;
+    width: 100vw;
+    position:absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    
+}
+.for_color{
+    
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    
+}
+.body{
+    position: absolute; 
+    top: 100px;
+    
+    
+}
+.input{
+    display: none;
+    margin-top: 20px;
+}
+
+#text{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background: red;
+    margin-top: 5px;
+}
+.my_classe {
+
+   
+   padding: 4px 10px 4px 20px;
+   border: 1px solid #EAEDED  ;
+   border-radius: 5px;
+   background-color: #D6EAF8  ;
+   width: 100%;
+   display: flex;
+   
+   
+}
+p{
+    margin-top: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px !important;
+    color: #34495E  ;
+    
+}
+#chekbox{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    position: absolute;
+    left: 90%;
+    margin-bottom: 5px;
+    
+}
+
+#addJob{
+    display: none
+}
+.close{
+    position: absolute;
+    left: 93%;
+    margin-top: 5px;
+}
