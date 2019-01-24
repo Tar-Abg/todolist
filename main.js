@@ -58,7 +58,7 @@ function displeyNone(){
         var div = document.createElement("div");
         var p = document.createElement("p");
         p.classList.add("my_classe");
-        p.innerHTML =  input +  "<input type='checkbox' id='chekbox'> <button  onclick='del(event)' class='btn close'><i class='fa fa-close'></i></button>  "
+        p.innerHTML =  input +  "<input type='checkbox' id='chekbox'> <button  onclick='del(event)' class='btn close'>x<i class='fa fa-close'></i></button>  "
         div.appendChild(p);
         var b = document.getElementById("body");
         b.appendChild(div);
